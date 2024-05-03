@@ -1,30 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <style>
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            border: 2px solid #000;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-        }
-    </style>
+    <title>Document</title>
 </head>
+
 <body>
-    <div class="container">
-        <img src="https://media.giphy.com/media/LXONhtCmN32YU/giphy.gif" alt="">
-        <button onclick="window.location.href = 'game/index.html';">Go to Game</button> 
-    </div>
+    <div id="content">
+        <h1> Header </h1>
+        <div id="bigContainer">
+            <div id="smallContainer">
+                <div class="smallBox allboxes">
+                    <h2> About </h2>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod, libero ac consequat pretium, ligula lectus condimentum dui, ut lobortis libero justo auctor est. Integer ut lacus nec lorem malesuada ultricies. Quisque rhoncus, ante ut consectetur sollicitudin, dui est fermentum tortor, nec dapibus justo ex vitae lectus. Vivamus ullamcorper, leo eu consequat malesuada, leo justo bibendum ex, eu finibus sapien lorem ac nisi.
+
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus auctor elit vitae purus blandit, ac luctus lorem dictum. Curabitur eu convallis urna, eget tristique purus. Fusce vel eros sit amet elit volutpat ultricies sed at libero. Suspendisse potenti. Morbi sed libero nec magna tincidunt iaculis.
+                        
+                        Sed vestibulum felis ut tortor viverra blandit. Phasellus eget sapien non felis tincidunt consectetur vitae non velit. Nam et orci nec turpis vestibulum fringilla vel eget neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In faucibus velit eu justo congue fermentum. Ut sit amet magna vel metus feugiat faucibus eget eget odio. Vivamus nec mi in lacus finibus gravida eget at ipsum.</p>
+                    <div class="smallBox allboxes">
+                        <h2> Game </h2>
+                       <p> Click <a href="game/index.html"> here to play </a>
+                        <img src="https://th.bing.com/th/id/OIP.Y1N_YNyPm89x7LrLVRqMqQHaFj?rs=1&pid=ImgDetMain" alt="">
+                        <div class="smallBox">
+                            Text Iniit
+                            <div class="BigBox allboxes">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quae quisquam qui
+                                    fugiat fuga! Ratione quos nemo quaerat placeat? Eos rerum fugit est modi voluptatem
+                                    rem quos veniam nisi sit?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quas delectus mollitia
+                                    quibusdam ipsum deserunt natus, nam quod facere, minima atque maxime saepe maiores
+                                    exercitationem eius cupiditate. Eveniet, porro et.</p>
 </body>
+
+<style>
+    body {
+
+        background-color: blueviolet;
+    }
+    h1 {
+        text-align: center;
+    }
+    #content {
+        background-color: aqua;
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+
+    #bigContainer {
+        background-color: rgb(128, 255, 255);
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        border-radius: ;
+    }
+
+    #smallContainer {
+        width: 40%;
+        border-radius: ;
+    }
+
+    .smallbox {
+        background-color: white;
+        margin: 10px padding 4px;
+    }
+
+    .bigbox {
+        background-color: white;
+        margin: 40px padding 4px;
+    }
+    .allboxes {
+        border: 1px solid black;
+        box-shadow: 5px 5px 1px;
+    }
+</style>
+
 </html>
